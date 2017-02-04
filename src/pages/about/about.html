@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row *ngFor="let aboutItem of aboutItems">
+      <ion-col width-100 offset-2 center>
+        <ion-icon name="car"></ion-icon>
+        <a class="button button-outline button-positive" href="{{aboutItem.url}}" target="_blank">{{aboutItem.name}}</a>
+      </ion-col>        
+    </ion-row>
+  </ion-grid>
+</ion-content>
