@@ -2,8 +2,8 @@
   "name": "myweather",
   "app_id": "",
   "v2": true,
-  "typescript": true,
-  "proxies": [
+  "typescript": true
+  ,"proxies": [
     {
         "path":"/search",
         "proxyUrl": "http://autocomplete.wunderground.com"
